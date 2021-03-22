@@ -8,24 +8,30 @@ body {
   border-radius: 50%;
   background: #bcd6ff;
 }
-
+/* 
 .badge {
+  margin: 0 auto;
   position: relative;
-  width: 400px;
+  width: 600px;
+  height: 0;
   border-radius: 50%;
   transform: rotate(-50deg);
-}
+} */
 
-h1 span {
-  font: 26px Monaco, MonoSpace;
+.words {
+  font-family: 26px Monaco, MonoSpace;
   height: 200px;
   position: absolute;
-  width: 20px;
-  left: 0;
-  top: 0;
-  transform-origin: bottom center;
+  width: 400px;
+  margin-left: 140px;
+  margin-top: 140px;
+  /* transform-origin: bottom center; */
 }
-
+.other{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 500px;
+}
 .char1 {
   transform: rotate(6deg);
 }
